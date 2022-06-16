@@ -17,6 +17,10 @@ Content = Short description
 Custom field "Profession" - Profession
 Custom field "Email" - Email 
 
+To add image, go to blog post edit view and find "Featured image" and upload it there. 
+
+To add footer, go to "Appearance" -> "W"idget" and add your footer details in widget. 
+
 **Open Source is awesome!**
 
 **Thank you!**
