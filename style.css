@@ -1,0 +1,89 @@
+/*
+Theme Name: Eksam
+Theme URI: http://wordpress.org/themes/Eksam
+Author: Kerli Loopman
+Author URI: liivakast.belitha.ee
+Description: The 2022 theme for Employee page.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: responsive, custom-fields,
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, lightgrey, black);
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Spectral', serif;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.header {
+    background-image: linear-gradient(to bottom right, black, grey);
+    position: sticky;
+}
+
+.site-title {
+    padding: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.site-title a {
+    color: white;
+    text-decoration: none;
+}
+.site-title a:visited{
+    color: white;
+}
+
+.post-preview {
+    padding: 10%;
+    margin: 1%;
+    background-color: lightgrey;
+    border-radius: 10%;
+}
+
+.posts {
+    max-width: 60%;
+    margin: 0 auto;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+
+.mailto {
+
+}
+
+.img-zoom {
+    padding: 5px;
+    transition: transform 0.5s;
+    width: 200px;
+    height: 200px;
+    margin: 0 left;
+}
+  
+  .img-zoom:hover {
+    -ms-transform: scale(2.0); 
+    transform: scale(2.0); 
+    transform-origin: 0% top;
+}
+
+.footer-area {
+    padding: 5px;
+    color: white;
+    background-color: black;
+    justify-content: center;
+}
+
